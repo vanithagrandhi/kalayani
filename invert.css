@@ -1,0 +1,73 @@
+/* invert.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2737c7;
+    padding: 10px 20px;
+    color: white;
+}
+
+.header-title h1 {
+    color: #f5f5f5;
+    font-size: 1.5rem;
+}
+
+.nav-items ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-items li {
+    list-style-type: none;
+    color: #f5f5f5;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-items li:hover {
+    color: #a8d0e6;
+}
+
+/* Background image section */
+.bg-image {
+    background-image: url("pic1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Content box */
+.content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.heading {
+    color: #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 5px;
+    font-size: 1.3rem;
+    margin: 15px 0;
+}
+
+.main-image {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
